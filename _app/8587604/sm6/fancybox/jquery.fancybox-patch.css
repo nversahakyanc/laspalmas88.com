@@ -1,0 +1,13 @@
+/* Patch to fix long text with no spaces when image name is longer than image width */
+.fancybox-title-inside-wrap {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+	width: 100%;
+}
+
+.lt-ie9 .fancybox-overlay {
+    background-image: url(http://laspalmas88.com/_app/1/sm6/fancybox/fancybox-overlay.png) !important;
+}
